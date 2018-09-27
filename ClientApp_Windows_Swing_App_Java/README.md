@@ -5,7 +5,7 @@
 
 ##Simple UI Screenshot
 
-<img src="/ss/ss.png" height="583" width="350" border="1px"/>&nbsp;
+<img src="ss/ss.png" height="583" width="350" border="1px"/>&nbsp;
 
 ### Dependency Jars
 
