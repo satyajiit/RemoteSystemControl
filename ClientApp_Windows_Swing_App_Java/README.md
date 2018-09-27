@@ -2,14 +2,18 @@
 * Functions to shutdown system.
 * Take Screenshot of the System.
 * Capable of executing remote CMD prompt Commands from the Server.
+* Runs in the background
+* Shows icon in the System Tray
+* Adds itself to the windows Startup automatically
 
-##Simple UI Screenshot
+## Simple UI Screenshot
 
-<img src="/Screenshots/The_Quiz1.jpg" height="583" width="350" border="1px"/>&nbsp;
+<img src="ss/ss.png"  border="1px"/>&nbsp;
 
-### Dependency Jars
+### Dependency Jars & Other Info
 
 * Apache CommonsNet https://commons.apache.org/proper/commons-net/download_net.cgi
+* You can convert jar file to executable file using Launch4J http://launch4j.sourceforge.net/
 
 #### All the rights of Dependency Sources belong to their respective owners.
 
