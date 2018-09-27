@@ -2,6 +2,9 @@
 * Functions to shutdown system.
 * Take Screenshot of the System.
 * Capable of executing remote CMD prompt Commands from the Server.
+* Runs in the background
+* Shows icon in the System Tray
+* Adds itself to the windows Startup automatically
 
 ## Simple UI Screenshot
 
