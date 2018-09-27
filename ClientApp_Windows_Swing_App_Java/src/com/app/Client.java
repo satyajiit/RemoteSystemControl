@@ -71,11 +71,11 @@ public class Client {
         frame.pack();
         frame.setLocationRelativeTo(null);
 
-        Path p=Paths.get("ClientApp.exe");
+        Path p=Paths.get("ClientApp.jar"); //You can convert jar to exe using launch4J http://launch4j.sourceforge.net/
 
         String currentUsersHomeDir = System.getProperty("user.home");
         String otherFolder = currentUsersHomeDir + File.separator + "AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup";
-        Path d=Paths.get(otherFolder+ File.separator +"ClientApp.exe");
+        Path d=Paths.get(otherFolder+ File.separator +"ClientApp.jar");
        if(Files.exists(p)&!Files.exists(d)){
 
            System.out.print("Exist File");
