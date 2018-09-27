@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ClientApp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ClientApp</output-path>
+    <root id="archive" name="ClientApp_jar.jar">
+      <element id="module-output" name="ClientApp" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/controlsfx-8.40.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/commons-net-3.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
