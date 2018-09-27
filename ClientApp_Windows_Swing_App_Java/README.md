@@ -3,16 +3,19 @@
 * Take Screenshot of the System.
 * Capable of executing remote CMD prompt Commands from the Server.
 
+##Simple UI Screenshot
 
-## Dependency Jars
+<img src="/Screenshots/The_Quiz1.jpg" height="583" width="350" border="1px"/>&nbsp;
+
+### Dependency Jars
 
 * Apache CommonsNet https://commons.apache.org/proper/commons-net/download_net.cgi
 
-### All the rights of Dependency Sources belong to their respective owners.
+#### All the rights of Dependency Sources belong to their respective owners.
 
 &nbsp;
 
-#### MIT License
+##### MIT License
 
 Copyright (c) 2018 SATYAJIT NETWORKS http://SatyaJiit.xyZ
 
