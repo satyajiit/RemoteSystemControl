@@ -3,7 +3,7 @@
 * Take Screenshot of the System.
 * Capable of executing remote CMD prompt Commands from the Server.
 
-##Simple UI Screenshot
+## Simple UI Screenshot
 
 <img src="ss/ss.png"  border="1px"/>&nbsp;
 
