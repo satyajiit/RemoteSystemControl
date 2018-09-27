@@ -10,9 +10,10 @@
 
 <img src="ss/ss.png"  border="1px"/>&nbsp;
 
-### Dependency Jars
+### Dependency Jars & Other Info
 
 * Apache CommonsNet https://commons.apache.org/proper/commons-net/download_net.cgi
+* You can convert jar file to executable file using Launch4J http://launch4j.sourceforge.net/
 
 #### All the rights of Dependency Sources belong to their respective owners.
 
