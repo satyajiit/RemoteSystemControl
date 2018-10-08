@@ -1,6 +1,5 @@
 # Android Application for The Client
-* Updating Soon..
-* The Source will be added Soon.
+* USE ANY WAY YOU LIKE.
 
 
 &nbsp;
