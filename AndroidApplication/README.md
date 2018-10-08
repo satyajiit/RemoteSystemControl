@@ -2,11 +2,11 @@
 * USE ANY WAY YOU LIKE.
 
 
-<img src="/screen/ss1.jpg" height="583" width="350" border="1px"/>&nbsp;
-<img src="/screen/ss2.jpg" height="583" width="350" />&nbsp;
+<img src="/screen/ss1.png" height="583" width="350" border="1px"/>&nbsp;
+<img src="/screen/ss2.png" height="583" width="350" />&nbsp;
 
-<img src="/screen/ss3.jpg" height="583" width="350" />&nbsp;
-<img src="/screen/ss4.jpg" height="583" width="350" />&nbsp;
+<img src="/screen/ss3.png" height="583" width="350" />&nbsp;
+<img src="/screen/ss4.png" height="583" width="350" />&nbsp;
 
 
 &nbsp;
