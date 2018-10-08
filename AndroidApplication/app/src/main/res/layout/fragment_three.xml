@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_creator="1"
+        android:background="@drawable/ss"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+android:gravity="center"
+
+    android:layout_height="wrap_content"
+    android:paddingTop="120dp">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+
+        android:src="@drawable/pic"
+       android:paddingTop="900dp"
+        app:civ_border_color="#000"
+        app:civ_border_width="3dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#000"
+        app:civ_shadow_radius="10"
+         />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="130dp"
+        android:paddingTop="130dp"
+        android:paddingLeft="150dp"
+        android:layout_height="wrap_content"
+        >
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="#F57F17"
+        android:layout_width="64dp"
+        android:elevation="12dp"
+        app:cardCornerRadius="3dp"
+       android:layout_height="64dp"
+        >
+
+    <ImageView
+
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@drawable/fb"
+
+        />
+
+
+
+
+
+</android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:paddingTop="130dp"
+        android:paddingLeft="220dp"
+        android:layout_height="wrap_content"
+        >
+        <android.support.v7.widget.CardView
+            app:cardBackgroundColor="#00796B"
+            android:layout_width="64dp"
+            android:elevation="12dp"
+            app:cardCornerRadius="3dp"
+            android:layout_height="64dp"
+            >
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:background="@drawable/git"
+
+                />
+
+
+
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:paddingTop="130dp"
+        android:paddingLeft="290dp"
+        android:layout_height="wrap_content"
+        >
+        <android.support.v7.widget.CardView
+            app:cardBackgroundColor="#F57F17"
+            android:layout_width="64dp"
+            android:elevation="12dp"
+            app:cardCornerRadius="3dp"
+            android:layout_height="64dp"
+            >
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:background="@drawable/link"
+
+                />
+
+
+
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:paddingTop="220dp"
+        android:paddingLeft="150dp"
+        android:layout_height="wrap_content"
+        >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="22dp"
+    android:textColor="#000"
+    android:text="SatyaJit Pradhan"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:paddingTop="290dp"
+android:paddingLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginBottom="26dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_mail"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"
+                android:id="@+id/email"
+                android:textSize="15sp"
+                android:text="Satyajiit0@gmail.com"
+                android:textColor="#4a4a4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginBottom="26dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/web"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"
+                android:text="http://SatyaJiit.xyZ"
+                android:id="@+id/web"
+                android:textSize="15sp"
+                android:textColor="#4a4a4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginBottom="26dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/loc"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/adr"
+                android:layout_marginTop="6dp"
+                android:text="Lovely Professional University"
+                android:textColor="#4a4a4a"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

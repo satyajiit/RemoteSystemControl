@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+android:gravity="center"
+    android:id="@+id/ll">
+
+
+
+
+
+    <LinearLayout
+        android:clipToPadding="true"
+        android:gravity="center"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Enter Commands :  "
+            android:textColor="#000000"/>
+
+
+
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="encr"
+            android:layout_width="290dp"
+            android:id="@+id/crd4"
+
+            android:elevation="25dp"
+            app:cardCornerRadius="5dp"
+            android:innerRadius="1dp"
+            android:thicknessRatio="1.9"
+
+            android:layout_height="150dp"
+            >
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#00796B"
+                android:gravity="">
+
+                <EditText
+                    android:id="@+id/cmd_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="165dp"
+                    android:gravity="start"
+                    android:textColor="#ffff"
+                    android:inputType="textMultiLine"
+                    android:overScrollMode="always"
+                    android:padding="15dp"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical" />
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.Button"
+    android:text="SEND"
+    android:id="@+id/send"
+    android:elevation="10dp"
+    android:textStyle="bold"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

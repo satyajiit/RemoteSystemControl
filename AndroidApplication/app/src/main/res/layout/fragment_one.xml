@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+android:gravity="center"
+    android:id="@+id/ll">
+
+    <LinearLayout
+        android:clipToPadding="true"
+        android:gravity="center"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="shut"
+            android:layout_width="160dp"
+            android:id="@+id/crd1"
+
+            android:elevation="25dp"
+            app:cardCornerRadius="5dp"
+            android:innerRadius="1dp"
+            android:thicknessRatio="1.9"
+
+            android:layout_height="120dp"
+            android:layout_margin="5dp">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#F57F17"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+
+                    android:src="@drawable/ic_p"
+
+                    android:padding="10dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="SHUTDOWN"
+                    android:id="@+id/t1"
+                    android:textSize="18dp"
+                    android:padding="5dp"
+                    android:textColor="#ffff"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="encr"
+            android:layout_width="160dp"
+            android:id="@+id/crd2"
+            android:elevation="15dp"
+            app:cardCornerRadius="5dp"
+            android:innerRadius="1dp"
+            android:thicknessRatio="1.9"
+
+            android:layout_height="120dp"
+            android:layout_margin="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+android:background="#00796B"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+
+                    android:src="@drawable/ic_scr"
+                    android:padding="10dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="SCREENSHOT"
+                    android:id="@+id/t11"
+                    android:textSize="18dp"
+                    android:padding="5dp"
+                    android:textColor="#ffff"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:clipToPadding="true"
+        android:gravity="center"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="encr"
+            android:layout_width="160dp"
+            android:id="@+id/crd3"
+
+            android:elevation="15dp"
+            app:cardCornerRadius="5dp"
+            android:innerRadius="1dp"
+            android:thicknessRatio="1.9"
+
+            android:layout_height="120dp"
+            android:layout_margin="5dp">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#00796B"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+
+                    android:src="@drawable/ic_can"
+
+                    android:padding="10dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="CANCEL SD"
+                    android:id="@+id/t22"
+                    android:textSize="18dp"
+                    android:padding="5dp"
+                    android:textColor="#ffff"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:onClick="encr"
+            android:layout_width="160dp"
+            android:id="@+id/crd4"
+            android:elevation="15dp"
+            app:cardCornerRadius="5dp"
+            android:innerRadius="1dp"
+            android:thicknessRatio="1.9"
+
+            android:layout_height="120dp"
+            android:layout_margin="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#F57F17"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+
+                    android:src="@drawable/ic_stat"
+                    android:padding="10dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="STATUS"
+                    android:id="@+id/t12"
+                    android:textSize="18dp"
+                    android:padding="5dp"
+                    android:textColor="#ffff"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
