@@ -1,7 +1,7 @@
 # PHP Scripts (More Scripts are yet to upload)
 * CMDS.XXX stores all the commands to be executed.
-* Index.php recieves signals and status from the Client app.
-* Index also stores the timestamp recieved from the client app...So that Last Online Logic can be performed.
+* prs.php recieves signals and status from the Client app.
+* Prs also stores the timestamp recieved from the client app...So that Last Online Logic can be performed.
 
 
 &nbsp;
